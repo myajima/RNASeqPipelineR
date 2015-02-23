@@ -33,11 +33,11 @@ if(getRversion() >= "2.15.1") globalVariables(c(
                   
 
 
-dir.exists<-function (x)
-{
-  res <- file.exists(x) & file.info(x)$isdir
-  setNames(res, x)
-}
+#dir.exists<-function (x)
+#{
+#  res <- file.exists(x) & file.info(x)$isdir
+#  setNames(res, x)
+#}
 
 #' Create a new RNASeqPipeline project
 #' 
